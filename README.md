@@ -5,3 +5,5 @@ This lesson introduces "cargo cults" and debugging techniques
 
 ## Highlights
 - History
+- Understand the problem
+- How to solve it
