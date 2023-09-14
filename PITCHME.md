@@ -91,6 +91,10 @@ _paginate: false
 
 ---
 
+![bg contain](./assets/copy-paste-bear.jpeg)
+
+---
+
 # Copy-paste
 - The different context won't have the same params, instance variables, etc.
 - If you don't understand why and how the code was working in the original context, copy-pasting it into your new and different context will just introduce lots of bugs and make it harder to make progress.
