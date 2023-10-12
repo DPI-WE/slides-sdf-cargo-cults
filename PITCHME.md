@@ -178,6 +178,11 @@ Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 1.5ms | Allocations: 7634
 ```
 
 ---
+# Use rails console
+
+`rails c` to enter a repl
+
+---
 
 # Try `debugger` 🪳
 
