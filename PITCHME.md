@@ -210,6 +210,33 @@ def show
 ![bg right](./assets/restart.webp)
 
 ---
+# Limit your variables
+
+- When trying to pass `rake grade` tests, make sure your development environment matches the tests
+1. `rails db:drop` # drop your database
+2. `rails db:migrate` # spin up a new database
+3. Use `rails console` to add ONLY the records in the test
+4. Then follow the test step-by-step
+
+---
+# Limit your variables
+
+```ruby
+describe "/movies/[ID]" do
+  it "displays the title of the movie", :points => 1 do
+
+    movie = Movie.new
+    movie.title = "Flubber"
+    movie.save
+
+    visit "/movies/#{movie.id}"
+
+    expect(page).to have_content(movie.title)
+  end
+end
+```
+
+---
 
 # Use [ask.firstdraft.com](https://ask.firstdraft.com) 🙋
 - It's great to have a conversation to help talk through a problem
