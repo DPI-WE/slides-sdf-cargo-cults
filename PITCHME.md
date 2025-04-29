@@ -20,6 +20,7 @@ _paginate: false
 ---
 
 # A history lesson
+
 - You're living a lifestyle that has largely remained unchanged for thousands of years.
 - Fishing and gathering are primarily how you make a living. Things are tight, but generally good.
 - Sometimes there are violent clashes with neighboring tribes.
@@ -28,6 +29,7 @@ _paginate: false
 ---
 
 # A history lesson
+
 - One day, something strange happens.
 - Directly above, around, and in your village, the largest war ever fought by humans takes place — World War II.
 - The most technologically advanced nations in the world start building bases on your island.
@@ -42,6 +44,7 @@ _paginate: false
 ---
 
 # A history lesson
+
 - This cargo is unlike anything you've ever seen.
 - The food is unbelievably nutritious. One package could feed your family for a month.
 - The weapons would make your tribe invincible.
@@ -50,6 +53,7 @@ _paginate: false
 ---
 
 # A history lesson
+
 - Then, one day, the conflict ends.
 - The soldiers abandon their bases and runways. They take their planes and leave.
 - The cargo stops being airdropped.
@@ -59,6 +63,7 @@ _paginate: false
 ---
 
 # A history lesson
+
 - Well, back when the airdrops were coming, there were planes sitting by the runways.
 - Now there are no planes.
 - Maybe it's the presence of planes that causes the cargo to come?
@@ -70,6 +75,7 @@ _paginate: false
 ---
 
 # A history lesson
+
 - Believing cargo to be blessings from the gods, "cargo cults" formed.
 - They would build planes out of wood, uniforms out of straw, and perform the rituals that they had observed the soldiers performing.
 - Some of these cults lasted for decades.
@@ -77,6 +83,7 @@ _paginate: false
 ---
 
 # A history lesson
+
 - Why do you think I'm telling this story?
 
 <!-- TODO: add an intermediate slide? -->
@@ -96,13 +103,15 @@ _paginate: false
 ---
 
 # Copy-paste
+
 - The different context won't have the same params, instance variables, etc.
 - If you don't understand why and how the code was working in the original context, copy-pasting it into your new and different context will just introduce lots of bugs and make it harder to make progress.
 - This is known as ["cargo-cult programming"](https://en.wikipedia.org/wiki/Cargo_cult_programming).
 
 ---
 
-# Copy-paste 
+# Copy-paste
+
 - Even if it would work unmodified, you should still type it out when you're a beginner. Typing out code is essential for developing your own muscle memory.
 - With experience, you will develop intuition for when it's okay to copy-paste and when it isn't.
 - For now, when in doubt, err on the side of typing out code.
@@ -118,12 +127,14 @@ _paginate: false
 ---
 
 # Work in tiny little steps 🐾
+
 - When you're solving a problem, don't try to jump all the way to the end in one go.
 - What is a series of small steps that will get you to your goal?
 - Figuring out the tiny steps to get from the starting point to the solution is engineering.
 
 ---
 # Try pseudocode first
+
 - Try writing out your steps in comments
 
 ```ruby
@@ -163,6 +174,7 @@ puts "My var here: #{my_var}"
 ---
 
 # Make the Invisible Visible 👻
+
 - --Read-- the server log. (Clear it often ⌘+k)
 
 ```
@@ -238,7 +250,8 @@ end
 
 ---
 
-# Use [ask.firstdraft.com](https://ask.firstdraft.com) 🙋
+# Use "Study Buddy"
+
 - It's great to have a conversation to help talk through a problem
 - Remember, AI can be totally wrong
 - It's best to not just copy paste AI output
