@@ -1,7 +1,7 @@
 # Cargo Cults
 This lesson introduces "cargo cults" and debugging techniques
 
-[slides](https://dpi-we.github.io/slides-sdf-cargo-cults)
+[slides](https://dpi-tta-slides.github.io/sdf-cargo-cults)
 
 ## Highlights
 - History
